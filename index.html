@@ -13,10 +13,11 @@
 
     <!-- Include the compiled Ratchet CSS -->
     <link href="css/ratchet.css" rel="stylesheet">
-
+    
     <!-- Include the compiled Ratchet JS -->
     <script src="js/ratchet.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="css/mycustom.css" rel="stylesheet">
   </head>
   <body>
 
@@ -27,24 +28,37 @@
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
+      <div class="card">
       <p class="content-padded">Thanks for downloading Ratchet. This is an example HTML page that's linked up to compiled Ratchet CSS and JS, has the proper meta tags and the HTML structure. Need some more help before you start filling this with your own content? Check out some Ratchet resources:</p>
-      <div class="slider" id="mySlider">
-  <div class="slide-group">
-    <div class="slide">
-      <img src="/assets/img/slide-1.jpg">
-      <span class="slide-text">
-        <span class="icon icon-left-nav"></span>
-        Slide me
-      </span>
-    </div>
-    <div class="slide">
-      <img src="/assets/img/slide-2.jpg">
-    </div>
-    <div class="slide">
-      <img src="/assets/img/slide-3.jpg">
-    </div>
-  </div>
-</div>
+      </div>
+    
+        <!--Image Slider -->
+        
+            <div class="card">
+                <div class="slider" id="mySlider">
+                    <div class="slide-group">
+
+                        <div class="slide">
+                            <img src="/img/slide-1.jpg"/>
+                            <span class="slide-text">
+                                <span class="icon icon-left-nav"></span>
+                                Slide me
+                            </span>
+                        </div>
+                        <div class="slide">
+                            <img src="/img/slide-2.jpg"/>
+                        </div>
+                        <div class="slide">
+                            <img src="/img/slide-3.jpg"/>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        
+        <!--End of Image Slider -->    
+        
+        <!-- End Of Parent Content Div -->
     </div>
 
   </body>
